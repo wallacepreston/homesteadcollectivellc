@@ -13,61 +13,51 @@ import YouTubeVideo from "../components/YouTubeVideo"
 const testimonials = [
   {
     name: 'Stephanie Stampher',
-    image: 'https://media.licdn.com/dms/image/C4E03AQG0EjeZTypv9g/profile-displayphoto-shrink_100_100/0/1550461693987?e=1681948800&v=beta&t=wKF4Gfcv78Sqt9o5li28H9iIIhV6LU_OGw-x-SOIpOY',
     social: 'stephaniestampher',
     quote: "I would not be where I am today as a software engineer without Preston's mentorship and guidance."
   },
   {
     name: 'Jean Leconte II',
-    image: 'https://media.licdn.com/dms/image/C5603AQGIYUwdaU0_aQ/profile-displayphoto-shrink_400_400/0/1616987166130?e=1681948800&v=beta&t=e73mER1tEOL-MrVLP1YIe90jgu0XJNcWJQCq06uuI6A',
     social: 'jean-leconte-ii',
     quote: "I've learned a ton from Preston and recommend if anyone reading this has the opportunity to work with him in any capacity they should take it!",
   },
   {
     name: 'Hugo Campos',
-    image: 'https://media.licdn.com/dms/image/C5603AQGoUpmO8mzxtg/profile-displayphoto-shrink_100_100/0/1550855929642?e=1681948800&v=beta&t=HDOp27ZcrieyXdpngSQE9glyjC7-brmZSF7bZjTt2GQ',
     social: 'o6nh',
     quote: "I am continuously impressed by Preston's ability to convince newer coders to keep soldiering on. He provides a positive energy that tends to boost morale.",
   },
   {
     name: 'Laurence Parmentier-Reeds',
-    image: 'https://media.licdn.com/dms/image/C5603AQFdvJXl6lHobw/profile-displayphoto-shrink_100_100/0/1611033386893?e=1681948800&v=beta&t=AfUEB3gkyrvsh5sxbUo-k07Wx8xOl-9zAgUCY1mDPtE',
     social: 'remoteuxproductmanager',
     quote: "Preston's passion for coding and teaching really translate into his instruction method. He is definitely a great teacher and mentor.",
   },
   {
     name: 'Justin Cook',
-    image: 'https://media.licdn.com/dms/image/C5603AQHXho5iEHcOMA/profile-displayphoto-shrink_100_100/0/1611858938755?e=1681948800&v=beta&t=bjNlX_5HqmPoCEZtxKZwXLkc1xXhAArw6AgtrpdzcS8',
     social: 'justin-cook-developer',
     quote: 'Preston is always thorough in his explanations and demonstrates great technical competency.'
   },
   {
     name: 'Yahya Hafez',
-    image: 'https://media.licdn.com/dms/image/C5603AQHZd2F__7gFVQ/profile-displayphoto-shrink_100_100/0/1593070143668?e=1681948800&v=beta&t=tCqG6t5aQ85QueVwh-mD2iVe8TMDUuqTGUZqQXoYxdc',
     social: 'yahya-hafez',
     quote: "Preston's impressive experience and skill as a developer was consistently highlighted through the deep knowledge of web development he shared."
   },
   {
     name: 'Riley Smith',
-    image: 'https://media.licdn.com/dms/image/C5603AQHmlM_z2WQweQ/profile-displayphoto-shrink_200_200/0/1560034191068?e=1681948800&v=beta&t=sprncOx7Qh9kvl75sBXhs340Z2iMvp-olt8721Dn2ZM',
     social: 'rileysheldonsmith',
     quote: "Preston is a thoughtful instructor who strives to see his students succeed. He is always happy to work with students at their pace, and help them gain thorough understanding of the curriculum."
   },
   {
     name: 'Tilly Wright',
-    image: 'https://media.licdn.com/dms/image/C5603AQG6G_vE0Hc8-g/profile-displayphoto-shrink_200_200/0/1608654958930?e=1681948800&v=beta&t=rg4jdOcBZieFHXIeAk37VBLVxtwehz05kW8-nPZroug',
     social: 'tillywright',
     quote: "Preston's instruction and lessons were really easy to follow as I was building JS projects."
   },
   {
     name: 'Sal Guerrero',
-    image: 'https://media.licdn.com/dms/image/C4E03AQHN3zwV__TInA/profile-displayphoto-shrink_400_400/0/1615440348360?e=1683763200&v=beta&t=yelr1-oXtF4llB9jwlNihDiR4z7tgDQz4-2TqQjbsqk',
     social: 'sal-guerrero',
     quote: "Preston helped me understand critical programming concepts and further my programming skills. As a result of his teaching I was able to break into tech and find the career of my dreams.",
   },
   {
     name: 'Bienvenido Rodriguez',
-    image: 'https://media.licdn.com/dms/image/D4E03AQEhKHm19c9rrQ/profile-displayphoto-shrink_100_100/0/1669090489392?e=1683763200&v=beta&t=Or8QQfQc-HVMlGYOcZgji_DfaCtQWvByEUqp_Vy1fxA',
     social: 'b17z',
     quote: 'Preston is a gifted Software Engineer and a thought leader in technical education, training, and communication.'
   }
