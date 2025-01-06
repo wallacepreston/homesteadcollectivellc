@@ -25,8 +25,9 @@ const MailchimpForm = ({ gift = 'Free Guide' }) => {
 
   return (
     <form id="signup-form" onSubmit={handleSubmit}>
-      <div><em>Register And Get Instant Access</em></div>
-      {
+      <div><em>Send your info to:</em></div>
+      <a href="mailto:prestonbuysmemphis@gmail.com">prestonbuysmemphis@gmail.com</a>
+      {/* {
         result && <Alert type={result} message={message} />
       }
       <div className="form-group">
@@ -39,7 +40,7 @@ const MailchimpForm = ({ gift = 'Free Guide' }) => {
           onChange={(e) => setEmail(e.target.value)}
         />
       </div>
-      <button type="submit" className="button button-info button-medium hover-grow">Get the FREE Guide</button>
+      <button type="submit" className="button button-info button-medium hover-grow">Get the FREE Guide</button> */}
     </form>
   )
 }

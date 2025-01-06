@@ -1,5 +1,5 @@
 import * as React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -124,19 +124,19 @@ const BlogIndex = ({ data, location }) => {
             <div className="row">
               <div className="hero-content">
                 <div>
-                  <h2 className="hero-title">Code</h2>
-                  <div className="script-font with-rules">YOUR</div>
-                  <h2 className="hero-title">Future</h2>
-                  <div className="hero-tagline">Master the programming skills <br/>that are <b>irresistible</b> to tech companies.</div>
+                  <h2 className="hero-title">Investing</h2>
+                  <div className="script-font with-rules">in</div>
+                  <h2 className="hero-title">Communities</h2>
+                  <div className="hero-tagline">One Home at a Time. <br/><br/><b>Homestead Collective LLC</b></div>
 
-                  <StaticImage
+                  {/* <StaticImage
                     className="hero-avatar"
                     formats={["auto", "webp", "avif"]}
                     src='../img/about/headshot.jpg'
                     quality={95}
                     alt="Preston Wallace"
                     style={{zIndex:'10', borderRadius: '50%'}}
-                  />
+                  /> */}
                   <br/>
 
                 </div>
@@ -144,46 +144,35 @@ const BlogIndex = ({ data, location }) => {
             </div>
           </div>
         </div>
+        <section className="py-16 px-4 max-w-4xl mx-auto">
+          <h2 className={`text-3xl font-bold mb-6 text-center`}>About Us</h2>
+          <p className="text-lg mb-8">
+            At Homestead Collective LLC, we specialize in buying and holding single-family residences (SFRs) to create value for families and investors alike. Our mission is simple: to build strong, stable neighborhoods by providing quality housing while fostering long-term community growth.
+          </p>
 
-        {/* free download section */}
-        <GetFree />
+          <h2 className={`text-3xl font-bold mb-6 text-center`} id="why-choose-us">Why Choose Us?</h2>
+          <ul className="list-disc pl-6 mb-8 space-y-4">
+            <li className="text-lg"><strong>Thoughtful Investments:</strong> We take a personalized approach to selecting properties, ensuring they align with our vision for sustainable growth and lasting impact.</li>
+            <li className="text-lg"><strong>Community Focused:</strong> Beyond bricks and mortar, we invest in people. Our properties are designed to become homes that enrich the lives of those who live there.</li>
+            <li className="text-lg"><strong>Integrity at Our Core:</strong> Transparency and trust drive every decision we make, from purchasing to property management.</li>
+          </ul>
 
-        {/* about section */}
-        <section id="about" className="section-padding">
-          <div id="hello-area" className="content-container">
-            <div className="text-3xl font-extrabold text-gray-600">Hello! I'm Preston</div>
-            <p className="section-padding text-xl">I empower new and seasoned engineers to level-up their skills, <br/> get that promotion, and ultimately crush it in life.</p>
-            <YouTubeVideo videoId="K0Q48l0060I" />
+          <h2 className={`text-3xl font-bold mb-6 text-center`}>Our Vision</h2>
+          <p className="text-lg mb-8">
+            We believe in the power of real estate to create secure, thriving communities. With a commitment to holding and improving properties for the long haul, we provide stability in a rapidly changing market.
+          </p>
+
+          <h2 className={`text-3xl font-bold mb-6 text-center`}>Let's Build Together</h2>
+          <p className="text-lg mb-8">
+            Whether you're a homeowner, a real estate partner, or an investor, we invite you to join us in shaping the future of housing—one home at a time.
+          </p>
+
+          <div className="text-center">
+            <Link to="/sell" className="inline-block bg-cyan-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-cyan-700 transition-colors">
+              Sell Your Home
+            </Link>
           </div>
         </section>
-
-        {/* testimonials section */}
-        <section id="testimonials" className="section-padding">
-          <div className="content-container">
-
-            <div className="testimonials-container">
-              {testimonials.map((testimonial, index) => (
-                <Testimonial key={index} testimonial={testimonial} />
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* why section */}
-        <section id="why" className="section-padding">
-          <div className="content-container">
-            <h2 className="section-title  wow flipInX" data-wow-delay="0.4s">why code with me</h2>
-            <div className="why-container">
-              {whyItems.map((why, index) => (
-                <WhyItem key={index} {...why} />
-              ))}
-            </div>
-          </div>
-        </section>
-
-
-        {/* blog post list */}
-        <PostList posts={posts} />
       </div>
     </Layout>
   )

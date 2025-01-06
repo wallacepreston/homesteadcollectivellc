@@ -1,5 +1,5 @@
 import * as React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -32,18 +32,23 @@ const About = ({ data, location }) => {
               <div className="basis-1/2 m-2">
                 <div className="profile-wrapper section-padding wow fadeInRight" data-wow-delay="0.3s">
                   <div className="text-3xl font-extrabold text-gray-600">Hey there!</div>
-                  <p className="section-padding">I'm Preston Wallace. I am a Full Stack Software Engineer with a longstanding love for everything tech. I currently work as a Software Engineer at <a href="https://mountain.com/">MNTN</a> in what I absolutely love: Node.js and GraphQL on the backend and React on the front end. I build backend solutions that work with SQL databases (PostgreSQL, Sequelize) to efficiently manage large datasets. On the frontend, I create reusable components that can efficiently display and interact with this data. At night, I teach React, Node, Express, and many other things CS-related.</p>
+                  <p className="section-padding">
+                    I'm Preston. Since 2013, I've been investing in Memphis real estate and have expanded to properties in three states. My passion lies in turning houses into homes and creating win-win opportunities for everyone involved. 
+                    <br/>
+                    <br/>
+                    Whether you're a wholesaler with a property to sell or an individual looking for a smooth and fair transaction, I'm here to help. I focus on making the process simple, transparent, and tailored to your needs, with integrity at the heart of everything I do. 
+                    <br/>
+                    <br/>
+                    Let's connect and explore how we can work together.
+                  </p>
                   <div className="about-profile">
                     <ul className="admin-profile">
                       <li><span className="pro-title"> Name </span> <span className="pro-detail">Preston Wallace</span></li>
-                      <li><span className="pro-title"> Location </span> <span className="pro-detail">San Luis Obispo, CA</span></li>
-                      <li><span className="pro-title"> e-mail </span> <span className="pro-detail">wallace.preston@gmail.com</span></li>
+                      <li><span className="pro-title"> Phone </span> <span className="pro-detail">901-609-5412</span></li>
+                      <li><span className="pro-title"> e-mail </span> <span className="pro-detail"><a href="mailto:prestonbuysmemphis@gmail.com">prestonbuysmemphis@gmail.com</a></span></li>
                       
                     </ul>
                   </div>
-                  <button className="button button-info button-medium hover-grow">
-                    <a href="https://prestonwallace.com/" >Personal Site</a>
-                  </button>
                   
                 </div>
               </div>   
@@ -51,15 +56,35 @@ const About = ({ data, location }) => {
           </div>
         </section>
         
-        <section id="about" className="section-padding">
-          <div id="hello-area" className="content-container">
-            <div className="text-3xl font-extrabold text-gray-600">But Wait! There's More!</div>
-            <p className="section-padding text-xl">To learn more about me and what I do as a Software Engineer, visit my personal site</p>
-              <button className="button button-info button-medium hover-grow">
-                <a href="https://prestonwallace.com/" >More About Me</a>
-              </button>
+        <section className="py-16 px-4 max-w-4xl mx-auto">
+
+          <h2 className={`text-3xl font-bold mb-6 text-center`} id="why-choose-us">Why Work With Me?</h2>
+          <ul className="list-disc pl-6 mb-8 space-y-4">
+            <li className="text-lg"><strong>Experience You Can Count On:</strong> With years of experience in real estate, I've built a track record of fair deals and win-win outcomes. My focus is on creating solutions that work for you.</li>
+            <li className="text-lg"><strong>Integrity in Every Interaction:</strong> I value honesty, clear communication, and respect. You can trust that when I make an offer, it's rooted in fairness and backed by my commitment to delivering on my word.</li>
+            <li className="text-lg"><strong>A Simple Process:</strong> Selling a property can feel overwhelming, but it doesn't have to be. I specialize in making the process smooth, fast, and stress-free.</li>
+          </ul>
+
+          <h2 className={`text-3xl font-bold mb-6 text-center`}>What Sets Me Apart?</h2>
+          <p className="text-lg mb-8">
+            I understand that selling a property is more than just a transaction—it's a major decision. That's why I take the time to listen to your needs and tailor solutions to meet your unique situation.
+          </p>
+          <p className="text-lg mb-8">
+            Whether you're looking to close quickly, avoid the hassle of repairs, or simply explore your options, I'm here to help. When you work with me, you're not just selling a property—you're gaining a partner who truly cares about your goals.
+          </p>
+
+          <h2 className={`text-3xl font-bold mb-6 text-center`}>Let's Talk</h2>
+          <p className="text-lg mb-8">
+            If you're ready to sell or just want to learn more, I'd love to connect. Let's discuss how we can work together to make your real estate journey smooth and successful.
+          </p>
+
+          <div className="text-center">
+            <Link href="/contact" className="inline-block bg-cyan-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-cyan-700 transition-colors">
+              Contact Me
+            </Link>
           </div>
         </section>
+
       </div>
     </Layout>
   )

@@ -1,8 +1,11 @@
-# devrocket.io
-Source code for [devrocket.io](https://devrocket.io/) - Code and Architecture training. Built with Gatsby.
+# homesteadcollectivellc.com
+
+Source code for [homesteadcollectivellc.com](https://homesteadcollectivellc.com/) - Real Estate Investing. Built with Gatsby.
 
 ## Deploying
+
 Locally, run this command
-```
+
+```sh
 npm run deploy
 ```

@@ -7,11 +7,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Logo from "./Logo"
 
 const navigation = [
-  { name: 'What I Do', href: '/' },
-  { name: 'Blog', href: '/blog' },
-  { name: 'Experience', href: '/about/#experience' },
-  { name: 'FREE Guide', href: '/typescript-essentials-free-guide', className: 'block px-3 py-2 rounded-md text-base bg-cyan-600 hover:bg-cyan-500 text-white font-bold' },
-  { name: 'About', href: '/about' },
+  { name: 'Why Choose Us', href: '/#why-choose-us' },
+  { name: 'Sell Your Home', href: '/sell', className: 'block px-3 py-2 rounded-md text-base bg-cyan-600 hover:bg-cyan-500 text-white font-bold' },
+  { name: 'Meet Preston', href: '/about' },
 ]
 
 export const Nav = () => {

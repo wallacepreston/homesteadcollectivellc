@@ -19,10 +19,12 @@ const TypeScriptEssentialsFreeGuide = ({ data, location }) => {
             <div className="row">
               <div className="hero-content">
                 <div>
-                  <div className="script-font">get my</div>
-                  <div className="script-font with-rules">EXCLUSIVE GUIDE:</div>
-                  <h2 className="hero-title">TypeScript Essentials</h2>
-                  <div className="hero-tagline">5 Critical Keys<br/> to Using TypeScript <b>Effectively</b></div>
+                  <div className="script-font">time to</div>
+                  <h2 className="hero-title">get your offer</h2>
+
+                  
+                  <div className="script-font with-rules">fast</div>
+                  <br/>
 
                   <StaticImage
                     className="hero-avatar"
@@ -39,7 +41,6 @@ const TypeScriptEssentialsFreeGuide = ({ data, location }) => {
                   <MailchimpForm gift={'Free Guide'} />
                   {/* End Mailchimp Signup Form */}
                   
-                  <div><em><small>When you signup, we'll be sending you weekly emails with additional free content.</small></em></div>
                   <br/>
 
                 </div>
