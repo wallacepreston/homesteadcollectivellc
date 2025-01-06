@@ -15,7 +15,7 @@ module.exports = {
       summary: `I empower new and seasoned engineers to level-up their skills, get that promotion, and ultimately crush it in life.`,
     },
     description: `Master the programming skills that are irresistible to tech companies.`,
-    siteUrl: `https://devrocket.io/`,
+    siteUrl: `https://homesteadcollectivellc.com/`,
     social: {
       twitter: `PrestonCreate`,
       linkedin: `prestonwallace`
