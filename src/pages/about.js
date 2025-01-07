@@ -97,7 +97,7 @@ export default About
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="Software Developer" />
+export const Head = () => <Seo title="Preston" />
 
 export const pageQuery = graphql`
   {

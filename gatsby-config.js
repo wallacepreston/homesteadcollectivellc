@@ -9,7 +9,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Code Your Future | Preston Wallace | Dev Rocket`,
+    title: `Homestead Collective LLC | Preston Buys Memphis Real Estate`,
     author: {
       name: `Preston Wallace`,
       summary: `I empower new and seasoned engineers to level-up their skills, get that promotion, and ultimately crush it in life.`,

@@ -55,7 +55,7 @@ const TypeScriptEssentialsFreeGuide = ({ data, location }) => {
 
 export default TypeScriptEssentialsFreeGuide
 
-export const Head = () => <Seo title="FREE TypeScript Essentials Guide" />
+export const Head = () => <Seo title="Sell My House Memphis, TN" />
 
 export const pageQuery = graphql`
   {
